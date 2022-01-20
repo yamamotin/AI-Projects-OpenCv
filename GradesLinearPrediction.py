@@ -9,7 +9,7 @@ import pickle
 
 style.use("ggplot")
 
-data = pd.read_csv("student-mat.csv", sep=";")
+data = pd.read_csv("student-mat.csv", sep=",")
 
 predict = "G3"
 
